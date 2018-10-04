@@ -6,6 +6,9 @@
   font-size: 15px;
   line-height: .8;
   font-weight: 900;
+/*  position: absolute;
+  margin-top: 10px;
+  bottom: 0;*/
 
 }
 
@@ -116,15 +119,41 @@ a {
   text-decoration: none;
 }
 
-
 img {
   width: 50%;
-  border: 1px solid;
+/*  border: 1px solid;*/
+}
+
+#dancer {
+  width: 70%;
+}
+
+#foodie {
+  width: 140%;
+}
+
+#nashville {
+  width: 110%;
+  margin-left: 30px;
+}
+
+#cyclist {
+  margin-left: 40px;
+}
+
+#world {
+  width: 40%;
 }
 
 td {
   text-align: center;
 font-weight: bold;
+
+}
+
+table {
+/*  position: absolute;*/
+  justify-content: center;
 }
 
 .thumbnail {
@@ -150,6 +179,9 @@ body > footer {
   background-color: #dddddd;
   margin: 0;
   padding: 1% 2%;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
 }
 
 body > footer p {
@@ -163,6 +195,7 @@ body > footer #social {
 
 body > footer #social a {
   margin-left: .5em;
+  color: black;
 }
 
 textarea {
@@ -180,77 +213,7 @@ textarea {
 }
 
 
-/*-------------------
-  About the Artists
---------------------*/
 
-.about header {
-  background-image: url('../images/bg4.jpg');
-}
-
-.about section {
-  overflow: hidden;
-}
-
-/*-------------------
-  Order prints
---------------------*/
-
-.prints header {
-  background-image: url('../images/bg3.jpg');
-}
-
-.orderform {
-  padding: 1% 2%;
-  font-size: .9em;
-  line-height: 2;
-}
-
-a#order {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2%;
-  width: 6em;
-  text-align: center;
-}
-
-input[type=radio] ~ input[type=radio] {
-  margin-left: .5em;
-  margin-right: .25em;
-}
-
-
-/*-------------------
-  Locations
---------------------*/
-
-.locations header {
-  background-image: url('../images/bg1.jpg');
-}
-
-#map {
-  height: 80vh;
-  min-height: 300px;
-  position: relative;
-}
-
-#gmap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-
-
-/*-------------------
-  Contact Us
---------------------*/
-
-.contact header {
-  background-image: url('../images/bg.jpg');
-}
 
 @media only screen and (min-width: 1800px) {
   body {
