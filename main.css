@@ -37,12 +37,14 @@ h1 {
   line-height: .8;
   font-weight: 900;
 }
-
+.blog {
+  text-align: center;
+}
 .projects {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid;
+  /*border: 1px solid;*/
   flex:1;
 }
 
@@ -207,12 +209,18 @@ textarea {
   .thumbnail {
     width: 23%;
   }
+  #project1 {
+  height: 10%;
+}
 }
 
 @media only screen and (max-width: 1000px) {
   .thumbnail {
     width: 48%;
   }
+  #project1 {
+  height: 20%;
+}
 }
 
 @media only screen and (max-width: 650px) {
@@ -242,6 +250,11 @@ textarea {
     left: 20px;
   }
 
+#project1 {
+  height: 40%;
+  border: 5px solid;
+  border-radius: 5px;
+}
 
   nav {
     text-align: right;
