@@ -6,9 +6,7 @@
   font-size: 15px;
   line-height: .8;
   font-weight: 900;
-/*  position: absolute;
-  margin-top: 10px;
-  bottom: 0;*/
+
 
 }
 
@@ -76,10 +74,23 @@ h1 {
   font-weight: 900;
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid;
+  flex:1;
+}
+
+#about {
+  width: ;
+ }
 h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
-
+h2 {
+  text-align: center;
+}
 header {
   background-image: url('https://i.imgur.com/LIOBDHj.png');
   background-repeat: no-repeat;
@@ -123,37 +134,44 @@ img {
   width: 50%;
 /*  border: 1px solid;*/
 }
-
+.about {
+  display: flex;
+  background-color: #dddddd;
+  justify-content: center;
+}
 #dancer {
   width: 70%;
 }
 
 #foodie {
-  width: 140%;
+  width: 100%;
 }
 
 #nashville {
-  width: 110%;
-  margin-left: 30px;
+  width: 80%;
+  justify-content: center;
 }
 
 #cyclist {
-  margin-left: 40px;
+width: 100%;
 }
 
 #world {
-  width: 40%;
+  width: 90%;
 }
 
 td {
   text-align: center;
 font-weight: bold;
+/*border: 1px solid;*/
+width: 10%;
 
 }
 
 table {
 /*  position: absolute;*/
   justify-content: center;
+  border: 1px solid;
 }
 
 .thumbnail {
@@ -257,9 +275,18 @@ textarea {
     left: .5em;
   }
 
+  h3, .job-title {
+    position: absolute;
+    font-size: 15px;
+    top: 50px;
+    left: 20px;
+  }
+
+
   nav {
     text-align: right;
     font-size: 1em;
+    color: black;
   }
 
   nav a {
