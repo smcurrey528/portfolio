@@ -15,42 +15,6 @@ h1#window-size {
 }
 
 
-/*  WIDTH > 768px; #container = green */
-@media all and (min-width: 768px) {
-  #container {
-    background-color: green;
-    width: 200px;
-    height: 200px;
-
-  }
-}
-
-/*  WIDTH > 1024px; #container = yellow */
-@media all and (min-width: 1024px) {
-  #container {
-    background-color: yellow;
-  }
-}
-
-
-
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
-}
-
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-}
-
 body {
   font-family: 'Raleway', Raleway, Arial, sans-serif;
   font-size: 20px;
@@ -192,26 +156,22 @@ section {
   margin-right: auto;
 }
 
-body > footer {
-  clear: both;
-  background-color: #dddddd;
-  margin: 0;
-  padding: 1% 2%;
-  position: absolute;
-  bottom: 0;
-  height: 50px;
+ footer {
+  background-color: #1364b9;
+  border: 5px solid;
+  padding: 10px;
 }
 
-body > footer p {
+footer p {
   display: inline-block;
 }
 
-body > footer #social {
+ footer #social {
   float: right;
   color: #444;
 }
 
-body > footer #social a {
+ footer #social a {
   margin-left: .5em;
   color: black;
 }
@@ -310,12 +270,3 @@ textarea {
     width: 98%;
   }
 
-  body > footer p {
-    display: block;
-    text-align: center;
-  }
-
-  body > footer #social {
-    float: none;
-  }
-}
